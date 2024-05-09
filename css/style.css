@@ -2,4 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
 }
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* regole container */
+.container-blu{
+    width: 100%;
+    background-color: #b4d0e7;
+}
+
+.container-stretto {
+    width: 80%;
+}
+
+/* regole nav header */
+
+header nav {
+    height: 80px;
+    width: 100%;
+    background-color: #fff;
+    padding: 20px 15px;
+    position: fixed;
+    z-index: 900;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col-nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 5%;
+    width: 50%;
+}
+
+.col-dx {
+    justify-content: end;
+}
+/* regole jumbotron */
+header .container-blu {
+    padding-top: 80px;
+}
+
+
