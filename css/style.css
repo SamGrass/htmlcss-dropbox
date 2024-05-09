@@ -74,6 +74,9 @@ header .container-blu {
     padding-bottom: 30px ;
 }
 
+.jumbotron-col-sx a {
+    display: inline-block;
+}
 .jumbotron-col-sx .fa-solid {
     padding-top: 30px;
     font-size: 40px;
@@ -90,6 +93,6 @@ header .container-blu {
     top: 0;
     left: 0;
 }
-/* APRIRE TICKET PER IL PADDING SOTTO TAG a */
+
 
 
