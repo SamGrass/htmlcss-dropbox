@@ -15,6 +15,11 @@ a {
     color: black;
 }
 
+h1 {
+    font-size: 80px;
+    font-weight: 900;
+    padding-bottom: 30px;
+}
 /* regole container */
 .container-blu{
     width: 100%;
@@ -22,7 +27,8 @@ a {
 }
 
 .container-stretto {
-    width: 80%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 /* regole nav header */
@@ -50,9 +56,40 @@ header nav {
 .col-dx {
     justify-content: end;
 }
+
 /* regole jumbotron */
 header .container-blu {
-    padding-top: 80px;
+    padding-top: 150px;
 }
+
+.container-2col {
+    display: flex; 
+}
+
+.jumbotron-col-sx {
+    width: 30%;
+}
+
+.jumbotron-col-sx > * {
+    padding-bottom: 30px ;
+}
+
+.jumbotron-col-sx .fa-solid {
+    padding-top: 30px;
+    font-size: 40px;
+}
+
+.jumbotron-col-dx{
+    width: 70%;
+    position: relative;
+}
+
+.jumbotron-col-dx img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* APRIRE TICKET PER IL PADDING SOTTO TAG a */
 
 
