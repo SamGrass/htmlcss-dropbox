@@ -20,6 +20,12 @@ h1 {
     font-weight: 900;
     padding-bottom: 30px;
 }
+
+h2 {
+    font-size: 60px;
+    font-weight: 900;
+    padding-bottom: 20px;
+}
 /* regole container */
 .container-blu{
     width: 100%;
@@ -27,8 +33,9 @@ h1 {
 }
 
 .container-stretto {
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
+    padding-top: 150px;
 }
 
 /* regole nav header */
@@ -60,6 +67,11 @@ header nav {
 /* regole jumbotron */
 header .container-blu {
     padding-top: 150px;
+}
+
+.container-jumbotron {
+    width: 60%;
+    margin: 0 auto;
 }
 
 .container-2col {
