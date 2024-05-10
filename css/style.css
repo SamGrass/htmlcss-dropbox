@@ -13,26 +13,47 @@ ul {
 h1 {
     font-size: 80px;
     font-weight: 900;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 h2 {
     font-size: 50px;
     font-weight: 700;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+h4 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.txt-wg-700 {
+    font-weight: 700;
+}
+
+.txt-grey {
+    color: grey;
+}
 .row {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-
+.padding-bt-20 {
+    padding-bottom: 40px;
+}
 .txt-center {
     text-align: center;
     padding: 10px;
 }
-
+.border-1 {
+    border: 1px solid #d0d0d3;
+}
 .box-padding {
     padding: 30px 20px;
 }
@@ -48,7 +69,7 @@ h2 {
 }
 
 .container-stretto > * {
-    padding-top: 30px;
+    margin-top: 50px;
 }
 
 /* regole nav header */
@@ -127,22 +148,35 @@ header .container-blu {
 
 .w-33 {
     width: calc(100% / 3 - 20px);
-
-    /* debug */
-    min-height: 100px;
-}
-
-.col-tariffe {
-    border: 1px solid #d0d0d3;
 }
 
 .col-tariffe .txt-center {
     border-bottom: 1px solid #d0d0d3;
 }
 
-.col-tariffe ul {
-    list-style: circle;
-    list-style-position: inside;
+.col-tariffe .padding-bt-20 * {
+    padding-bottom: 20px;
+}
+.col-tariffe .padding-bt-40 {
+    padding-bottom: 40px;
+}
+.col-tariffe .padding-bt-5 {
+    padding-bottom: 5px;
+}
+.col-tariffe .interlinea {
+    padding-bottom: 0;
+    margin: 40px 0;
 }
 
-/* CHIEDERE DELLE LINEE NEI li */
+.col-tariffe li {
+    padding-left: calc(1em + 5px);
+    text-indent: calc(-1em - 5px);
+}
+.col-tariffe li:before {
+    padding-right: 5px;
+    font-family: "FontAwesome";
+    /* Debug */
+    content: "\f6d3";
+}
+
+/* regole contatti */
