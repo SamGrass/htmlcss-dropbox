@@ -18,7 +18,7 @@ h1 {
 }
 
 h2 {
-    font-size: 50px;
+    font-size: 46px;
     font-weight: 700;
 }
 
@@ -43,7 +43,6 @@ h5 {
 
 .txt-center {
     text-align: center;
-    padding: 10px;
 }
 
 /* regole flex */
@@ -79,6 +78,7 @@ h5 {
 .w-30 {
     width: 30%;
 }
+
 /* regole bordo */
 .border-1 {
     border: 1px solid #d0d0d3;
@@ -101,6 +101,14 @@ h5 {
     margin-bottom: 20px;
 }
 
+/* regole backgroud */
+.white-bg {
+    background-color: #fff;
+}
+
+.blu-bg {
+    background-color: #0061ff;
+}
 /* regole container */
 .container-blu{
     background-color: #b4d0e7;
@@ -109,7 +117,7 @@ h5 {
 .container-stretto {
     width: 50%;
     margin: 0 auto;
-    padding-top: 100px;
+    margin-top: 150px;
 }
 
 .container-stretto > * {
@@ -222,4 +230,22 @@ header .container-blu {
 
 .box-contatto .margin-bt-40 {
     margin-bottom: 40px;
+}
+
+/* regole link info clienti */
+
+.container-info-clienti h2 {
+    margin-bottom: 60px;
+}
+
+/* regole prova gratuita */
+.container-prova-gratuita {
+    width: 50%;
+    margin: 0 auto;
+    padding: 150px 0;
+    align-items: baseline;
+}
+
+.container-prova-gratuita .w-30 {
+    text-align: end;
 }
