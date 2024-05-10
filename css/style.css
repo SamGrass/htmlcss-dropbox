@@ -10,6 +10,7 @@ ul {
     list-style: none;
 }
 
+/* regole titoli */
 h1 {
     font-size: 80px;
     font-weight: 900;
@@ -32,6 +33,7 @@ h5 {
     font-weight: 700;
 }
 
+/* regole testo */
 .txt-wg-700 {
     font-weight: 700;
 }
@@ -39,21 +41,38 @@ h5 {
 .txt-grey {
     color: grey;
 }
+
+.txt-center {
+    text-align: center;
+    padding: 10px;
+}
+
+/* regole flex */
 .row {
     display: flex;
     justify-content: space-between;
     gap: 20px;
 }
-.padding-bt-20 {
-    padding-bottom: 40px;
+
+/* regole width */
+.w-33 {
+    width: calc(100% / 3 - 20px);
 }
-.txt-center {
-    text-align: center;
-    padding: 10px;
+
+.w-70 {
+    width: 70%;
 }
+
+.w-30 {
+    width: 30%;
+}
+/* regole bordo */
 .border-1 {
     border: 1px solid #d0d0d3;
 }
+
+/* regole padding */
+
 .box-padding {
     padding: 30px 20px;
 }
@@ -116,9 +135,6 @@ header .container-blu {
 .jumbotron-row {
     display: flex;
 }
-.jumbotron-col-sx {
-    width: 30%;
-}
 
 .jumbotron-col-sx > * {
     padding-bottom: 30px ;
@@ -133,7 +149,6 @@ header .container-blu {
 }
 
 .jumbotron-col-dx{
-    width: 70%;
     position: relative;
 }
 
@@ -145,10 +160,6 @@ header .container-blu {
 }
 
 /* regole piano tariffario */
-
-.w-33 {
-    width: calc(100% / 3 - 20px);
-}
 
 .col-tariffe .txt-center {
     border-bottom: 1px solid #d0d0d3;
@@ -180,3 +191,14 @@ header .container-blu {
 }
 
 /* regole contatti */
+
+.box-contatto .txt-center {
+    border-bottom: 1px solid #d0d0d3;
+}
+.box-contatto .padding-bt-20 {
+    padding-bottom: 20px;
+}
+
+.box-contatto .padding-bt-40 {
+    padding-bottom: 40px;
+}
