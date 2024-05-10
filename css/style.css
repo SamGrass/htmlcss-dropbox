@@ -51,7 +51,14 @@ h5 {
 .row {
     display: flex;
     justify-content: space-between;
+}
+
+.gap-20 {
     gap: 20px;
+}
+
+.gap-60 {
+    gap: 60px;
 }
 
 /* regole width */
@@ -71,11 +78,22 @@ h5 {
     border: 1px solid #d0d0d3;
 }
 
+.black-border {
+    border: 1px solid black;
+}
 /* regole padding */
-
+.padding-10 {
+    padding: 10px;
+}
 .box-padding {
     padding: 30px 20px;
 }
+
+/* regole margin */
+.margin-bt-20 * {
+    margin-bottom: 20px;
+}
+
 /* regole container */
 .container-blu{
     background-color: #b4d0e7;
@@ -165,14 +183,11 @@ header .container-blu {
     border-bottom: 1px solid #d0d0d3;
 }
 
-.col-tariffe .padding-bt-20 * {
-    padding-bottom: 20px;
+.col-tariffe .margin-bt-40 {
+    margin-bottom: 40px;
 }
-.col-tariffe .padding-bt-40 {
-    padding-bottom: 40px;
-}
-.col-tariffe .padding-bt-5 {
-    padding-bottom: 5px;
+.col-tariffe .margin-bt-5 {
+    margin-bottom: 5px;
 }
 .col-tariffe .interlinea {
     padding-bottom: 0;
@@ -195,10 +210,11 @@ header .container-blu {
 .box-contatto .txt-center {
     border-bottom: 1px solid #d0d0d3;
 }
-.box-contatto .padding-bt-20 {
-    padding-bottom: 20px;
+
+.box-contatto .margin-bt-40 {
+    margin-bottom: 40px;
 }
 
-.box-contatto .padding-bt-40 {
-    padding-bottom: 40px;
+.w-70 img {
+    width: 100%;
 }
